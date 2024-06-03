@@ -16,4 +16,5 @@ def root():
 
 @app.post("/posts")
 def create_posts(post: Post):
+    print(post.title)
     return {"data": "successful"}

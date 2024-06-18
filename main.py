@@ -16,4 +16,4 @@ def root():
 
 @app.post("/posts")
 def create_posts(post: Post):
-    return {"data": "successful, chime"}
+    return {"data": "successful"}
